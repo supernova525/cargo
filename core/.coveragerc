@@ -1,0 +1,15 @@
+[run]
+branch = True
+include = ./*
+omit =
+    */migrations/*
+    bin/*
+
+[report]
+omit =
+    .env/*
+    */migrations/*
+    */*test*.py
+    */urls.py
+    manage.py
+    */features/*
