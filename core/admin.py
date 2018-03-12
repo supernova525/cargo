@@ -1,3 +1,8 @@
 from django.contrib import admin
+from core.models import (
+    Delivery,
+    Shipper,
+)
 
-# Register your models here.
+admin.site.register(Delivery)
+admin.site.register(Shipper)

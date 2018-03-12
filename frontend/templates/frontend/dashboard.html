@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %} Dashboard {% endblock %}
+
+{% block content %}
+    Welcome to your dashoard, {{ request.user.username }} <br/>
+    <a href="">Paquetes</a> |
+    <a href="">Pagos</a> |
+    <a href="">Estado</a> |
+    <a href="">Pre - Alerta</a> |
+    <div class="deliveries"> 
+        <h2>Deliveries</h2>
+       {% for delivery in request.user.deliveries.all %} 
+            <div class ="delivery"> 
+            <i> {{ delivery.tracking }}</i> |
+            <a href="#"> más... </a>
+            </div>
+        {% empty %}
+            <i>No hay paquetes nuevos.</i> 
+       {% endfor %}
+
+    </div>
+{% endblock %}
