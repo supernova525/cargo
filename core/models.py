@@ -26,3 +26,16 @@ class Delivery(TimeStampedModel):
 
     def __str__(self):
         return 'DELIVERY: {tracking}'.format(tracking=self.tracking)
+
+
+class Prealert(models.Model):
+    shipper = models.ForeignKey(Shipper, on_delete=models.CASCADE)
+    tracking = models.CharField(max_length=100)
+    delivery_date = models.DateField()
+    provider = models.CharField(max_length=50, help_text="Ex: Amazon, Ebay, etc.")
+    price = models.DecimalField(decimal_places=2, max_digits=6)
+    content = models.TextField()
+    #TODO: Add support for attachments (bills, etc.)
+
+    def __str__(self):
+        return "Prealert: {.02f}".format(self.id)
