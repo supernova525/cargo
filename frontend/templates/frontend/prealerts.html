@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title%}pre alertas {% endblock %}
+
+{% block content %}
+ <h2>Prealertas: {{ object_list.count }}</h2>
+ <h3>Form:</h3>
+ <div class="form">
+     <form method="POST" action="{% url 'prealerts' %}">
+        {% csrf_token%}
+        {{ form.as_p }}
+        <input type="submit" value="registrar" />
+     </form>
+ </div>
+{% endblock %}
