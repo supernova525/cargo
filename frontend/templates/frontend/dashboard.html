@@ -7,7 +7,7 @@
     <a href="">Paquetes</a> |
     <a href="">Pagos</a> |
     <a href="">Estado</a> |
-    <a href="">Pre - Alerta</a> |
+    <a href="{% url 'prealerts' %}">Pre - Alerta</a> |
     <div class="deliveries"> 
         <h2>Deliveries</h2>
        {% for delivery in request.user.deliveries.all %} 
