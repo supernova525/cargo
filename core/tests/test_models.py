@@ -16,3 +16,20 @@ class DeliveryTest(TestCase):
     def test_str_delivery(self):
         expected = 'DELIVERY: USP-12345'
         self.assertEquals(str(self.delivery), expected)
+
+
+class PrealertTest(TestCase):
+    def setUp(self):
+        self.prealert = mommy.make(Prealert, tracking="12345")
+
+    def test_str(self):
+        expected = "Prealert: 00001"
+        self.assertEquals(str(self.prealert), expected)
+
+class ShipperTest(TestCase):
+    def setUp(self):
+        self.shipper = mommy.make(Shipper, name="UPS")
+    
+    def test_str(self):
+        self.assertEquals(str(self.shipper), "UPS")
+
