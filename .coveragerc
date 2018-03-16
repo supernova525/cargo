@@ -4,7 +4,6 @@ include = ./*
 omit =
     */migrations/*
     bin/*
-codecov --token=c13a1934-43da-4991-af3b-bcf994416d99
 
 [report]
 omit =
