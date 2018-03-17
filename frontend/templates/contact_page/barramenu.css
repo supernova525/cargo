@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* Barras de menu */
+/*trabajamos aqui con las ul  */
+.barra ul{
+	position:absolute;
+	left:10px;
+	top:25px;
+	margin:0px;
+	list-style:none;
+	padding:0px;
+	opacity:0;
+	transition:opacity .35s ease .2s;
+	-webkit-transition:opacity .35s ease .2s;
+	-moz-transition:opacity .35s ease .2s;
+	-o-transition:opacity .35s ease .2s;
+	visibility:hidden;	
+}
+.barra ul li a{
+	border-bottom:2px solid #333;
+	border-left:none;
+	display:block;
+	text-align:left;
+}
+
+
+/* agregamos efecto  hover   */
+.barra li:hover ul{
+    opacity:1;
+	visibility:visible;
+}
+
+
+.barra{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.barra li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	position:relative;
+	box-shadow: 2px 2px 4px 1px #000;
+}
+.barra li a{
+	display: block;
+	width: 165px;
+	height: 15px;
+	padding: 6px;
+	line-height:15px;
+	text-decoration: none;
+	text-align: center;
+	font-weight:bold;
+	color: #000;
+	background-color:#FFF;
+	position:inherit;
+	border-left: 2px solid #333;
+}
+.barra li a:hover{
+	color:#FF0;
+	background-color:#300;
+}
+
+
+
+
