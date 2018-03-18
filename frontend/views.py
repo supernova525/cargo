@@ -34,6 +34,8 @@ class PrealertView(ListView):
         if form.is_valid():
             form.save()
         return HttpResponseRedirect(reverse('prealerts'))
+def ContactPage(request):
+    return render(request, 'frontend/contactPage.html')
 
 
 
