@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" />
+<title>contact page</title>
+<style type="text/css">
+#container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+#head {
+	position: absolute;
+	width: 1132px;
+	height: 55px;
+	z-index: 1;
+}
+#correo {
+	position: absolute;
+	width: 747px;
+	height: 308px;
+	z-index: 2;
+	top: 101px;
+}
+#contactPhone {
+	position: absolute;
+	width: 384px;
+	height: 308px;
+	z-index: 3;
+	left: 748px;
+	top: 101px;
+}
+#menu {
+	position: absolute;
+	width: 1131px;
+	height: 44px;
+	z-index: 1;
+	left: 1px;
+	top: 56px;
+}
+#footer {
+	position: absolute;
+	width: 1133px;
+	height: 46px;
+	z-index: 4;
+	left: 0px;
+	top: 409px;
+}
+</style>
+</head>
+
+<body>
+<div id="container">
+  <div id="head">
+  	<p>CARGO</p>
+    <div id="menu">
+      <table width="575" border="1">
+        <tr>
+          <td width="200" height="41">Dashboard</td>
+          <td width="200">Who we are</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="correo">
+    <form name="form1" method="post" action="">
+      <p>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+      </p>
+      <p>
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+      </p>
+      <p>SEND
+        <input type="submit" name="send" id="send" value="Enviar">
+      </p>
+    </form>
+  </div>
+  <div id="contactPhone">
+  	<p>ContactPhone.<br> +54-555-555-555</p>
+  	<p>Location.<br> Caracas, Venezuela.</p>
+  </div>
+  <div id="footer">
+  	<p>Aqui va información adicional de la web</p>
+  </div>
+</div>
+</body>
+</html>

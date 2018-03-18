@@ -1,0 +1,192 @@
+[33mcommit 32f023703fb9aa8dc32ba8840302423746824b4b[m
+Author: supernova525 <yomar.nova@gmail.com>
+Date:   Fri Mar 16 21:37:16 2018 -0430
+
+    'contentPageHTML_created'
+
+[33mcommit fde6f51d19746405bfc3eeb09ae933aad6a6e774[m
+Merge: 7da21fb 2ff7060
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Thu Mar 15 22:41:36 2018 -0300
+
+    Merge branch 'master' of https://github.com/mleger45/cargo
+
+[33mcommit 7da21fbbca422f4848e6762e975ec557d44d7f95[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Thu Mar 15 22:41:21 2018 -0300
+
+    adding codecov support
+
+[33mcommit 2ff7060834c7c57425a00cee365dddaf89e092a3[m
+Merge: ec7f100 a4a766a
+Author: McArthur <mleger45@gmail.com>
+Date:   Wed Mar 14 03:10:59 2018 -0400
+
+    Merge pull request #4 from mleger45/CAR-009-pre-alert-feature
+    
+    CAR-009 pre alert feature
+
+[33mcommit a4a766a22361ce21c86258f47b0ed0297ab0a07e[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 14 04:08:42 2018 -0300
+
+    pending files
+
+[33mcommit c4c0ad23b8ea82e8566d74f65fd9f984c02e25db[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 14 04:06:29 2018 -0300
+
+    WIP adding basic prealert configuration
+
+[33mcommit 23696ec43f269b10afe3d67b8b3fa8c2f0758f76[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 14 03:01:09 2018 -0300
+
+    WIP: created model PreAlert
+
+[33mcommit ec7f10020a9664979c66649d19e79c1e3ff10e63[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Mon Mar 12 01:38:52 2018 -0300
+
+    WIP: MVP service
+
+[33mcommit c4d11aa5fa151c9460e14031c21d2c3761fdb362[m
+Author: McArthur <mleger45@gmail.com>
+Date:   Sun Mar 11 19:31:15 2018 -0300
+
+    Create README.md
+
+[33mcommit c4b6545f23710ce27ce75519210df07976c5e240[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Sun Mar 11 19:29:28 2018 -0300
+
+    delete custom readme
+
+[33mcommit cea7cf8b380254cf70493f27ab9a9f0df0b7dec6[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Thu Mar 8 02:42:00 2018 -0300
+
+    updating .gitignore
+
+[33mcommit 8764378ce9e786efb55b80ce78fe8fb1ba097678[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Thu Mar 8 02:41:24 2018 -0300
+
+    adding .gitignore
+
+[33mcommit b2586bed1bf61fb7255945358cb123aafcf401e3[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Thu Mar 8 02:38:48 2018 -0300
+
+    config
+
+[33mcommit 0ef6e8a20a688971b308d8048cdb43ceb0b266c6[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Thu Mar 8 02:36:08 2018 -0300
+
+    config files
+
+[33mcommit 10efa8a5c7cbf2b33850e5f073978a10740bed54[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Thu Mar 8 02:00:06 2018 -0300
+
+    updating travis
+
+[33mcommit d6440ffc7f82b598de6995eb9e654280f0de9b1d[m
+Merge: 2486dfd caf2231
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Thu Mar 8 01:41:25 2018 -0300
+
+    Merge branch 'master' of https://github.com/mleger45/cargo
+
+[33mcommit 2486dfd9a14dfb86a05a29ee3345c82724076ca1[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Thu Mar 8 01:41:04 2018 -0300
+
+    adding travis support
+
+[33mcommit caf22316b78361d8b9e742b8b450b9f2494c5765[m
+Merge: ffbdcfd 0d1d596
+Author: McArthur <mleger45@gmail.com>
+Date:   Wed Mar 7 01:59:30 2018 -0400
+
+    Merge pull request #2 from supernova525/updating-index-html
+    
+    core added to installedApps
+
+[33mcommit 0d1d5969e53bbbda9366d38d5a0d4c4094434d13[m
+Author: supernova525 <yomar.nova@gmail.com>
+Date:   Wed Mar 7 01:51:19 2018 -0430
+
+    core added to installedApps
+
+[33mcommit ffbdcfdd5baca5cf93297b0edd377d3205c6653d[m
+Merge: 77925bc 3278187
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 7 02:57:41 2018 -0300
+
+    Merge branch 'master' of https://github.com/mleger45/cargo
+
+[33mcommit 77925bcd374fafe734c4fbfd219451ba7b70cb7c[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 7 02:37:59 2018 -0300
+
+    app core created
+
+[33mcommit 32781879a10b16f205572181ee4e037a5f5bc20e[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 7 02:37:59 2018 -0300
+
+    app core created
+
+[33mcommit c5e29c3e20562760e97745c43e5193d7e279250b[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 7 02:32:49 2018 -0300
+
+    cleaning up
+
+[33mcommit 5dcc1ce70031f5be5971f7b30a5cd06caf12ca35[m
+Merge: 2fce646 f41812f
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 7 02:32:18 2018 -0300
+
+    Merge branch 'master' of https://github.com/mleger45/cargo
+
+[33mcommit 2fce6460f5ee925ed21cfd52936b06db00e25e62[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 7 02:29:35 2018 -0300
+
+    first project version
+
+[33mcommit f41812f5b5390e069a45eb1429eca1aad6acd78a[m
+Merge: 831df24 d4aea51
+Author: McArthur <mleger45@gmail.com>
+Date:   Wed Mar 7 01:05:03 2018 -0400
+
+    Merge pull request #1 from supernova525/updating-index-html
+    
+    updated index.html
+
+[33mcommit d4aea51405e53fa3567cc55763f1f9916f6d505a[m
+Author: supernova525 <yomar.nova@gmail.com>
+Date:   Wed Mar 7 01:03:16 2018 -0430
+
+    cambios sugeridos
+
+[33mcommit c470354f73811a25f097a7650047ef97a15a20f1[m
+Author: supernova525 <yomar.nova@gmail.com>
+Date:   Wed Mar 7 00:52:04 2018 -0430
+
+    updated index.html
+
+[33mcommit 831df24ee486cbe0a3e7d4fa389827477349aa04[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 7 01:36:31 2018 -0300
+
+    added html
+
+[33mcommit ae6edb5b99269afcb8aefc5c68ab5848d5d042aa[m
+Author: McArthur Leger <mcarthur.leger@customeraffairs.com>
+Date:   Wed Mar 7 01:26:54 2018 -0300
+
+    readme installed
