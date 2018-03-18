@@ -11,4 +11,3 @@ script: # => 7
   - coverage report
 after_success:
   - codecov
-  
