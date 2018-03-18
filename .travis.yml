@@ -10,4 +10,5 @@ script: # => 7
   - coverage run --source="." manage.py test
   - coverage report
 after_success:
-  - codecov 
+  - codecov
+  
