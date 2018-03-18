@@ -1,56 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta content="text/html; charset=utf-8" />
-<title>contact page</title>
-<style type="text/css">
-#container {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-}
-#head {
-	position: absolute;
-	width: 1132px;
-	height: 55px;
-	z-index: 1;
-}
-#correo {
-	position: absolute;
-	width: 747px;
-	height: 308px;
-	z-index: 2;
-	top: 101px;
-}
-#contactPhone {
-	position: absolute;
-	width: 384px;
-	height: 308px;
-	z-index: 3;
-	left: 748px;
-	top: 101px;
-}
-#menu {
-	position: absolute;
-	width: 1131px;
-	height: 44px;
-	z-index: 1;
-	left: 1px;
-	top: 56px;
-}
-#footer {
-	position: absolute;
-	width: 1133px;
-	height: 46px;
-	z-index: 4;
-	left: 0px;
-	top: 409px;
-}
-</style>
-</head>
+{% extends "base.html" %}
 
-<body>
+{% block content %}
 <div id="container">
   <div id="head">
   	<p>CARGO</p>
@@ -90,5 +40,4 @@
   	<p>Aqui va información adicional de la web</p>
   </div>
 </div>
-</body>
-</html>
+{% endblock %}
