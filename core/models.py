@@ -57,3 +57,8 @@ class Prealert(models.Model):
 
     def __str__(self):
         return "Prealert: {0:05d}".format(self.id)
+
+class Contact(models.Model):
+    sender = models.CharField(max_length=50)
+    email = models.EmailField(max_length=100)
+    message = models.TextField()

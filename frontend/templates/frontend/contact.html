@@ -64,22 +64,11 @@
     </div>
   </div>
   <div id="correo">
-    <form name="form1" method="post" action="">
-      <p>
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name">
-      </p>
-      <p>
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email">
-      </p>
-      <p>
-        <label for="message">Message</label>
-        <textarea name="message" id="message"></textarea>
-      </p>
-      <p>SEND
-        <input type="submit" name="send" id="send" value="Enviar">
-      </p>
+    <p>Por favor, ingrese los datos solicitados.</p>
+    <form method="POST" action="{% url 'contact' %}">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="Enviar" />
     </form>
   </div>
   <div id="contactPhone">

@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect
 from django.views.generic import TemplateView, ListView
 from django.urls import reverse
 from core.models import Delivery, Prealert
-from core.forms import PrealertForm
+from core.forms import PrealertForm, ContactForm
 
 class LandingView(TemplateView):
     template_name="frontend/landing.html"
@@ -34,8 +34,19 @@ class PrealertView(ListView):
         if form.is_valid():
             form.save()
         return HttpResponseRedirect(reverse('prealerts'))
-def ContactPage(request):
-    return render(request, 'frontend/contactPage.html')
+def Contact(request):
+
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return render(request, 'landing.html', {'message':'Mensaje Enviado.'})
+        else:
+            return HttpResponse('Error. Revise los datos introducidos.')
+    else:
+        form = ContactForm()
+    return render(request, 'frontend/contact.html', {'form': form})
+
 
 
 
